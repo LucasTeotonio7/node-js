@@ -1,7 +1,7 @@
-var sumFunc = require("./sum");
-var subFunc = require("./sub");
-var multFunc = require("./mult");
-var divFunc = require("./div");
+var sumFunc = require("./functions/sum");
+var subFunc = require("./functions/sub");
+var multFunc = require("./functions/mult");
+var divFunc = require("./functions/div");
 
 console.log("soma: "+sumFunc(1,2));
 console.log("sub: "+ subFunc(10,5));
